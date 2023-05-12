@@ -36,7 +36,7 @@ RawFiles = {[path,name,'.mat']};
 ProtocolName = 'Protocol';
 
 % Call preprocessing pipelines
-bst_preprocessing
+main_preproc;
 
 % Stop BrainStorm
 brainstorm stop;
